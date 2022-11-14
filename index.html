@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-database.js"></script>
+ 
+   <script>
+
+     // web app's firebase configuration
+     const firebaseConfig = {
+      apiKey: "AIzaSyCTJmfBbH5nChOIsVzHK8sDD6i90Guej74",
+      authDomain: "c36-lesson.firebaseapp.com",
+      databaseURL: "https://c36-lesson-default-rtdb.firebaseio.com",
+      projectId: "c36-lesson",
+      storageBucket: "c36-lesson.appspot.com",
+      messagingSenderId: "43313183510",
+      appId: "1:43313183510:web:beadfadde69a44ca186e37"
+      };
+
+     // initialize firebase
+     firebase.initializeApp(firebaseConfig);
+
+   </script>
+   
+  </head>
+  <body>
+    
+    <script src="./sketch.js"></script>
+  </body>
+</html>
